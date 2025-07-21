@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Georgia', sans-serif;
   background-color: Thistle;
   color: #333;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
   background: Snow;
@@ -16,17 +16,20 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 38px;
   margin-bottom: 10px;
 }
 
 .subtitle {
   text-align: center;
   color: #666;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
 .section label {
   display: block;
+  font-size: 20px;
   margin-top: 15px;
   font-weight: bold;
 }
