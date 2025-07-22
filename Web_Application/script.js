@@ -151,8 +151,8 @@ if (linearFound !== -1 && binaryFound !== -1) {
   explanation += "📌 Neither algorithm found the target. Double-check your input values.\n\n";
 }
 
-explanation += "💡 **Key Insight:** Binary Search is faster in general but only works correctly on sorted arrays. If the array is unsorted and you can't sort it beforehand, Linear Search is your only option.\n\n";
-explanation += "📍 **Example scenario where Linear Search is better:** Suppose you're searching for a large number like 99 that is located near the start of an unsorted array. Binary Search would sort the array and place 99 near the end, making it slower to find, while Linear Search might find it quickly.\n";
+explanation += "💡 Binary Search is faster in general but only works correctly on sorted arrays. If the array is unsorted and you can't sort it beforehand, Linear Search is your only option.\n\n";
+explanation += "📍 Example scenario where Linear Search is better: \nSuppose you're searching for a large number like 99 that is located near the start of an unsorted array. Binary Search would sort the array and place 99 near the end, making it slower to find, while Linear Search might find it quickly.\n";
 
 document.getElementById("comparisonTable").innerHTML = `
   ${comparisonHTML}
